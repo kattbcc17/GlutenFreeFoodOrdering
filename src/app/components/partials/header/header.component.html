@@ -1,0 +1,42 @@
+
+<header>
+  <div class="container">
+    <a routerLink="/" class="logo">
+      <div class="logo-box">
+        <img src="assets/logo.png" alt="KFCB Logo" class="logo-icon" />
+        <div class="logo-text">
+          <h1>KFCB</h1>
+          <span class="tagline">Food Specials with a Smile ☺</span>
+        </div>
+      </div>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="/login">Login</a>
+        </li>
+        <li class="menu-container">
+          <a routerLink="/dashboard">Menu</a>
+          <div class="menu">
+            <a routerLink="/profile">Profile</a>
+            <a routerLink="/orders">Orders</a>
+            <a>Logout</a>
+          </div>
+        </li>
+        <li>
+          <a routerLink="/cart-page">
+            Cart <span>{{cartQuantity}}</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="welcome-message">
+  Welcome to KFCB Food Corner! Enjoy your meal with a smile 😊
+</div>
+
+<div class="happy">
+  <img src="assets/happy.png" alt="KFCB" class="happy-img" />
+  <div>
